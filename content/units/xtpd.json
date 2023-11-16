@@ -52,7 +52,7 @@
       
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {
-        "type": "FireBulletType",
+        "type": "RailBulletType",
      
         "fragBullets": 10,
         "fragBullet": {
