@@ -35,7 +35,7 @@
       "y": 0
       "shoot": {
         "type": "ShootHelix",
-        "shots": 15,
+        "shots": 5,
         "barrels": 5,
         "spread": 25,
         "shotDelay": 0,
@@ -53,7 +53,11 @@
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {
         "type": "RailBulletType",
-     
+        "damage": 500,
+        "length": 500,
+        "pierceDamageFactor": 1
+        "splashDamageRadius": 350,
+        "splashDamage": 0,
         "fragBullets": 10,
         "fragBullet": {
         "type": "FireBulletType",    
