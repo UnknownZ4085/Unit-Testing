@@ -35,9 +35,9 @@
       "y": 0
       "shoot": {
         "type": "ShootHelix",
-        "shots": 1,
+        "shots": 15,
         "barrels": 5,
-        "spread": 5,
+        "spread": 25,
         "shotDelay": 0,
       },
       
@@ -53,23 +53,11 @@
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {
         "type": "FireBulletType",
-        "damage": 500,
-        "speed": 10,
-        
-        //effects when this bullet hits something or despawns.
-        "hitEffect": "blastExplosion",
-        "despawnEffect": "blastExplosion",
      
-		    "fragBullets": 10,
-"fragBullet": {
-        "type": "SpaceLiquidBulletType",
-        "damage": 5,
-        
-        //effects when this bullet hits something or despawns.
-        "hitEffect": "blastExplosion",
-        "despawnEffect": "blastExplosion",
-  
-}
+        "fragBullets": 10,
+        "fragBullet": {
+        "type": "FireBulletType",    
+            }
         }
       }
 ],
