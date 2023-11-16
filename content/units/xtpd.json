@@ -34,15 +34,15 @@
       "x": 0
       "y": 0
       "shoot": {
-        "type": "ShootHelix",
-        "shots": 6,
+        "type": "ShootBarrel",
+        "shots": 1,
         "barrels": 5,
-        "spread": 0,
-        "shotDelay": 10,
+        "spread": 5,
+        "shotDelay": 0,
       },
       
       //how long it will take until this weapon can shoot again
-      "reload": 60,
+      "reload": 1,
         
       //inaccuracy of the bullets spawned by this weapon in °
       "inaccuracy": 0,
