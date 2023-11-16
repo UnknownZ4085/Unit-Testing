@@ -52,13 +52,12 @@
       
       //parameters for the bullet, including it's type, speed, damage, etc.
       "bullet": {
-        "type": "RailBulletType",
+        "type": "BasicBulletType",
         "damage": 500,
-        "length": 500,
-        "pierceDamageFactor": 1
-        "splashDamageRadius": 350,
-        "splashDamage": 0,
-        "fragBullets": 10,
+        "width": 10,
+        "height": 10,
+        "speed": 10,
+        "hitSize": 5,
         "fragBullet": {
         "type": "FireBulletType",    
             }
