@@ -34,7 +34,7 @@
       "x": 0
       "y": 0
       "shoot": {
-        "type": "ShootBarrel",
+        "type": "ShootHelix",
         "shots": 1,
         "barrels": 5,
         "spread": 5,
