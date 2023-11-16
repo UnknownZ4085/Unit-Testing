@@ -1,0 +1,85 @@
+{
+    "name": "[#101010]XTPD"
+    "description": "[#ff0000]Test Unit"
+    "type": "flying",
+    "canHeal": true,
+    //"research": "",
+    "lowAltitude": false,
+	"hittable": true
+	"killable": true
+	"targetable": false
+    "speed": 2,
+    "accel": 2,
+    "drag": 0.0,
+    "flying": true,
+    "health": 750000000,
+    "hitSize": 256,
+    "armor": 1000,
+    "mineSpeed": 0,
+    "buildSpeed": 0,
+    "mineTier": 0,
+    "itemCapacity": 500000,
+    "engineOffset": 0,
+    "range": 500000,
+    "targetAir": true,
+    "commandLimit": 10000,
+    "immunities": [],
+	"faceTarget": false,
+    "weapons": [
+        {
+    "name": "w1",
+     "mirror": false
+      "rotate": true
+      "recoil": 1
+      "x": 0
+      "y": 0
+      "shoot": {
+        "type": "ShootHelix",
+        "shots": 5,
+        "barrels": 5,
+        "spread": 0,
+        "shotDelay": 0.5,
+      },
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 60,
+        
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 0,
+      
+      //what sound plays when this weapon shoots
+      "shootSound": "none",
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.
+      "bullet": {
+        "type": "FireBulletType",
+        "damage": 500,
+        
+        //effects when this bullet hits something or despawns.
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+     
+		    "fragBullets": 10,
+"fragBullet": {
+        "type": "SpaceLiquidBulletType",
+        "damage": 5,
+        
+        //effects when this bullet hits something or despawns.
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+  
+}
+        }
+      }
+],
+   "abilities": [
+ 	    {
+              "type": "mindustry.entities.abilities.RepairFieldAbility",
+              "range": 1000,
+              "amount": 1,
+              "reload": 1
+        },
+		   ]
+    
+    
+}
