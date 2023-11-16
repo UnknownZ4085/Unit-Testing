@@ -1,0 +1,13 @@
+{
+  "name": UnTe,
+  "displayName": "Unit Testing",
+  "description": "A test mod for units"
+  "minGameVersion": 136,
+  "author": 
+    ''' 
+    
+    "Programming": "UnknownZ4085"
+    
+    '''
+  "version": 1.0
+}
