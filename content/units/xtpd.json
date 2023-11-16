@@ -26,7 +26,7 @@
     "immunities": [],
 	"faceTarget": false,
     "weapons": [
-        {
+    {
     "name": "w1",
      "mirror": false
       "rotate": true
@@ -35,10 +35,10 @@
       "y": 0
       "shoot": {
         "type": "ShootHelix",
-        "shots": 5,
+        "shots": 6,
         "barrels": 5,
         "spread": 0,
-        "shotDelay": 0.5,
+        "shotDelay": 10,
       },
       
       //how long it will take until this weapon can shoot again
@@ -54,6 +54,7 @@
       "bullet": {
         "type": "FireBulletType",
         "damage": 500,
+        "speed": 10,
         
         //effects when this bullet hits something or despawns.
         "hitEffect": "blastExplosion",
